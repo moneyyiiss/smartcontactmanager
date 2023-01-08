@@ -21,6 +21,6 @@ public class HomeController {
 		user.setName("Manish Mani Dinkar");
 		user.setEmail("moneyyiiss@gmail.com");
 		userRepository.save(user);
-		return "Working";
+		return "Working properly";
 	}
 }
